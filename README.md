@@ -1,6 +1,6 @@
 # 解决Unifi Network Application无法启动的问题
 Unifi Network Application只能在首次安装后成功启动，经查看是java的路径问题。解决方法如下。
-在软件根目录下新建runjava.bat，内容如下
+在软件的lib目录下下新建runjava.bat，内容如下
 ````
 java -jar ace.jar ui
 ````
